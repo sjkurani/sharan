@@ -6,6 +6,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 /*-- Reset Code --*/
+
+#player {
+	display: none;
+}
 .work-info p {
 	font-weight: bold;
 }

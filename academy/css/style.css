@@ -6,6 +6,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 /*-- Reset Code --*/
+
+#player {
+	display: none;
+}
+.work-info p {
+	font-weight: bold;
+}
 body {
 	padding:0;
 	margin:0;
@@ -73,7 +80,6 @@ a:focus, a:hover {
 	margin:0
 }
 .banner-agile {
-	background: url(../images/bg.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1094,7 +1100,7 @@ textarea {
 		font-size: 18px;
 	}
 	.navbar-default {
-		width: 85%;
+		width: 100%;
 	}
 	.banner-info-w3l h2 {
 		font-size: 2.3em;

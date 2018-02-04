@@ -21,7 +21,6 @@
 <!-- Web-Fonts -->
 <link href="//fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
 <!-- //Web-Fonts -->
-
 </head>
 <body>
 
@@ -44,12 +43,21 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						
+								<div style="float: right;">
+								    <audio id="player" src="albums/Hoovigondu.mp3"  preload="auto" controls="" autoplay="true"></audio>
+								    <button onclick="document.getElementById('player').play()">Play</button>
+								    <button onclick="document.getElementById('player').pause()">Pause</button>
+								</div>
 
 						<ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
 							<li><a class="scroll2" href="../index.html"><span data-hover="Home">Home</span></a></li>
 							<li><a class="scroll" href="index.html#about"><span data-hover="About Me">About Me</span></a></li>
 							<li><a class="scroll2" href="gallery.html"><span data-hover="Gallery">Gallery</span></a></li>
+							<li><a class="scroll2" href="awards.html"><span data-hover="Awards">Awards</span></a></li>
+							<li><a class="scroll2" href="media.html"><span data-hover="Media">Media</span></a></li>
 							<li><a class="scroll2" href="contact.html"><span data-hover="Contact">Contact</span></a></li>
+							<li>
+							</li>
 						</ul>
 						<div class="clearfix"></div>
 					</div><!-- /.navbar-collapse -->
