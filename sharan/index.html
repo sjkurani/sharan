@@ -29,6 +29,11 @@
 
 	<div class="nav-agile">
 		<div class="container">
+			<div class="playButton" ">
+			    <audio id="player" src="albums/Hoovigondu.mp3"  preload="auto" controls="" autoplay="true"></audio>
+			    <button  style="display: none;" class="playerButtons" onclick="document.getElementById('player').play()"><i class="fa fa-play"></i></button>
+			    <button class="playerButtons" onclick="document.getElementById('player').pause()"><i class="fa fa-stop"></i></button>
+			</div>
 			<!-- Navigation -->
 			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -43,12 +48,6 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						
-								<div style="float: right;">
-								    <audio id="player" src="albums/Hoovigondu.mp3"  preload="auto" controls="" autoplay="true"></audio>
-								    <button onclick="document.getElementById('player').play()">Play</button>
-								    <button onclick="document.getElementById('player').pause()">Pause</button>
-								</div>
-
 						<ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
 							<li><a class="scroll2" href="../index.html"><span data-hover="Home">Home</span></a></li>
 							<li><a class="scroll" href="index.html#about"><span data-hover="About Me">About Me</span></a></li>
@@ -64,6 +63,7 @@
 					<div class="clearfix"></div>
 			</nav>
 		</div>
+
 	</div>
 		<div class="container1">
 		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -287,6 +287,10 @@
 		<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$(".playerButtons").click(function(){
+				$(this).toggle();
+				$(this).siblings().toggle();
+			});
 			/*
 				var defaults = {
 				containerID: 'toTop', // fading element id

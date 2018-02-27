@@ -7,11 +7,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 /*-- Reset Code --*/
 
+.playButton {
+	float: left;
+	margin-top: 100px;
+	position: absolute;
+	z-index: 1000;
+}
 #player {
 	display: none;
 }
 .work-info p {
 	font-weight: bold;
+}
+.container {
+	width: 100% !important;
 }
 body {
 	padding:0;
@@ -93,7 +102,7 @@ a:focus, a:hover {
 .scroll, .scroll2 {
 	margin: 0em 0 0;
 	text-align: center;
-	background-color: #000;
+	/*background-color: #000;*/
 }
 .banner-info-w3l h2 {
     color: #fff;
@@ -133,7 +142,7 @@ a:focus, a:hover {
 	-ms-transition: 0.5s all;
 }
 .banner-info-w3l h4 a:hover {
-    background: #07cb79;
+    background: #7e6762;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -142,7 +151,7 @@ a:focus, a:hover {
 }
 /*-- header-nav --*/
 .nav-agile {
-    background:#07cb79;
+    background:#7e6762;
 }
 .navbar-default {
 	background-color:Transparent;
@@ -334,7 +343,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 /* Effect 2 */
  .hovicon.effect-2 {
     color: #fff;
-	box-shadow:0 0 0 3px #07cb79;
+	box-shadow:0 0 0 3px #7e6762;
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     transition: color 0.3s;
@@ -344,7 +353,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     left: -2px;
     padding: 2px;
     z-index: -1;
-    background:#07cb79;
+    background:#7e6762;
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
@@ -429,8 +438,8 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 
 	.resp-tab-active {
 		text-shadow: none;
-		background-color: #07cb79;
-		border-bottom: 1px solid #07cb79;
+		background-color: #7e6762;
+		border-bottom: 1px solid #7e6762;
 	}
 
 	.resp-tab-active span {
@@ -542,7 +551,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 		float: left;
 		left: 100%;
 		padding: 4px 10px 7px 10px;
-		background-color:#07cb79;
+		background-color:#7e6762;
 		-webkit-transform: translateX(-50%) translateY(-30px);
 		-ms-transform: translateX(-50%) translateY(-30px);
 		transform: translateX(-50%) translateY(-30px);
@@ -571,7 +580,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 		display: block;
 		border-style: solid;
 		border-width: 5px 5px 0 5px;
-		border-color: #07cb79 transparent transparent transparent;
+		border-color: #7e6762 transparent transparent transparent;
 	}
 
 	.b_label {
@@ -595,7 +604,7 @@ h3.agileits-title{
     height: 200px;
     margin: 0px 0;
     text-align: center;
-    border: 5px solid  #07cb79;
+    border: 5px solid  #7e6762;
     -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -628,7 +637,7 @@ h3.agileits-title{
 	-ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	-o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    color: #07cb79;
+    color: #7e6762;
     font-size: 2em;
     opacity: 0;
 }
@@ -699,7 +708,7 @@ ul#myList {
 	width: 14%;
 	margin-right: 1em;
 	display: inline-block;
-	border: 1px solid #07cb79;
+	border: 1px solid #7e6762;
 	font-size: 1.1em;
 	position: relative;
 	transition: 0.5s all ease;
@@ -712,7 +721,7 @@ ul#myList {
 }
 
 #loadMore:hover {
-	background-color: #07cb79;
+	background-color: #7e6762;
 	color: #fff;
 }
 
@@ -724,7 +733,7 @@ ul#myList {
 	width: 14%;
 	margin-right: 1em;
 	display: inline-block;
-	border: 1px solid #07cb79;
+	border: 1px solid #7e6762;
 	font-size: 1.1em;
 	position: relative;
 	/*--w3layouts--*/
@@ -739,7 +748,7 @@ ul#myList {
 }
 
 #showLess:hover {
-	background-color: #07cb79;
+	background-color: #7e6762;
 	color: #fff;
 }
 
@@ -768,7 +777,7 @@ li.aitsaitsresumewthreeli-1 {
 
 .work-info h4 {
 	font-size: 1.2em;
-	background:#07cb79;
+	background:#7e6762;
 	display: inline-block;
 	padding: 12px 30px;
 	color: #fff;
@@ -783,7 +792,7 @@ li.aitsaitsresumewthreeli-1 {
 	right: -14px;
 	border-style: solid;
 	border-width: 10px 0 10px 16px;
-	border-color: transparent transparent transparent #07cb79;
+	border-color: transparent transparent transparent #7e6762;
 }
 .work-info h5 {
 	font-size: 16px;
@@ -911,7 +920,7 @@ input[type="submit"] {
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background: #07cb79;
+    background: #7e6762;
     color: white;
     border: none;
     outline: none;
